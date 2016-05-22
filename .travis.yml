@@ -1,0 +1,9 @@
+language: java
+jdk: oraclejdk7
+install:
+  - mvn install -Dmaven.test.skip=true -Dmaven.javadoc.skip=true -B -q
+script:
+  - mvn test -fae -B -q
+env:
+  global:
+    - TERM=dumb
