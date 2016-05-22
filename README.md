@@ -1,5 +1,5 @@
 # LightExt
 
-[![Build Status](https://travis-ci.org/joshuazhan/arsenal4j.svg?branch=master)](https://travis-ci.org/joshuazhan/arsenal4j)
+[![Build Status](https://travis-ci.org/joshuazhan/lightext.svg?branch=master)](https://travis-ci.org/joshuazhan/lightext)
 
 A lightwight service extension framework, fork and simplify from dubbo's extension mechanism.
