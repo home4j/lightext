@@ -16,15 +16,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 扩展加载器，从Dubbo的扩展实现简化而来（<a
- * href=”https://github.com/alibaba/dubbo/blob/master/dubbo-common/src/main/java
- * /com/alibaba/dubbo/common/extension/ExtensionLoader.java”>com.alibaba.dubbo.
- * common.extension.ExtensionLoader</a>）。
+ * 扩展加载器，从Dubbo的扩展实现简化而来（<a href=
+ * "https://github.com/alibaba/dubbo/blob/master/dubbo-common/src/main/java/com/alibaba/dubbo/common/extension/ExtensionLoader.java">
+ * com.alibaba.dubbo.common.extension.ExtensionLoader</a>）。
  * <p>
  * LightExt保留了ExtensionLoader中基于SPI的扩展，让SPI可以通过扩展实现的名字来直接获取扩展实例。
  * 
  * 
- * @author <a href=”mailto:daonan.zhan@gmail.com”>Joshua Zhan</a>
+ * @author Joshua Zhan
  */
 public class LightExtLoader<T> {
 
@@ -98,7 +97,7 @@ public class LightExtLoader<T> {
 
 	/**
 	 * 返回已经加载的扩展点的名字。
-	 * <p />
+	 * <p>
 	 * 一般应该调用{@link #getSupportedExtensions()}方法获得扩展，这个方法会返回所有的扩展点。
 	 *
 	 * @see #getSupportedExtensions()

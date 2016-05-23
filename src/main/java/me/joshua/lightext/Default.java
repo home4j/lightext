@@ -11,7 +11,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * 默认扩展点配置注解
  *
- * @author <a href=”mailto:daonan.zhan@gmail.com”>Joshua Zhan</a>
+ * @author <a href="mailto:daonan.zhan@gmail.com">Joshua Zhan</a>
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
