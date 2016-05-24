@@ -22,9 +22,9 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:https://github.com/joshuazhan/lightext.git</connection>
-		<developerConnection>scm:git:https://github.com/joshuazhan/lightext.git</developerConnection>
-		<url>https://github.com/joshuazhan/lightext</url>
+		<connection>scm:git:https://github.com/home4j/lightext.git</connection>
+		<developerConnection>scm:git:https://github.com/home4j/lightext.git</developerConnection>
+		<url>https://github.com/home4j/lightext</url>
 		<tag>v${project.version}</tag>
 	</scm>
 	<distributionManagement>
