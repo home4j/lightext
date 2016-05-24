@@ -1,4 +1,4 @@
-package me.joshua.lightext.generic;
+package io.github.home4j.lightext.generic;
 
 public interface GenericExt<N> {
 

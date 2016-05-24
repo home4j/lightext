@@ -1,4 +1,4 @@
-package me.joshua.lightext.simple;
+package io.github.home4j.lightext.simple;
 
 /**
  * @author ding.lid

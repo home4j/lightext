@@ -1,6 +1,6 @@
-package me.joshua.lightext.simple;
+package io.github.home4j.lightext.simple;
 
-import me.joshua.lightext.Default;
+import io.github.home4j.lightext.Default;
 
 /**
  * 简单扩展点。 没有Wrapper。

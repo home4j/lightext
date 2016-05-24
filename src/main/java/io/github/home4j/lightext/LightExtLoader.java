@@ -1,4 +1,4 @@
-package me.joshua.lightext;
+package io.github.home4j.lightext;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

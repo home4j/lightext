@@ -1,4 +1,4 @@
-package me.joshua.lightext;
+package io.github.home4j.lightext;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

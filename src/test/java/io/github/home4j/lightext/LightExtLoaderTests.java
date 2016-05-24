@@ -1,4 +1,4 @@
-package me.joshua.lightext;
+package io.github.home4j.lightext;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -9,14 +9,14 @@ import static org.junit.Assert.fail;
 import org.hamcrest.core.StringContains;
 import org.junit.Test;
 
-import me.joshua.lightext.LightExtLoader;
-import me.joshua.lightext.generic.BlankDefaultExt;
-import me.joshua.lightext.generic.GenericExt;
-import me.joshua.lightext.generic.IntegerExt;
-import me.joshua.lightext.simple.SimpleExt;
-import me.joshua.lightext.simple.SimpleExtImpl1;
-import me.joshua.lightext.simple.SimpleExtImpl2;
-import me.joshua.lightext.simple.SimpleExtImpl3;
+import io.github.home4j.lightext.LightExtLoader;
+import io.github.home4j.lightext.generic.BlankDefaultExt;
+import io.github.home4j.lightext.generic.GenericExt;
+import io.github.home4j.lightext.generic.IntegerExt;
+import io.github.home4j.lightext.simple.SimpleExt;
+import io.github.home4j.lightext.simple.SimpleExtImpl1;
+import io.github.home4j.lightext.simple.SimpleExtImpl2;
+import io.github.home4j.lightext.simple.SimpleExtImpl3;
 
 public class LightExtLoaderTests {
 
@@ -71,7 +71,7 @@ public class LightExtLoaderTests {
 			fail();
 		} catch (IllegalArgumentException expected) {
 			assertThat(expected.getMessage(), StringContains.containsString(
-			        "Extension type(class me.joshua.lightext.LightExtLoaderTests) is not interface!"));
+			        "Extension type(class io.github.home4j.lightext.LightExtLoaderTests) is not interface!"));
 		}
 	}
 }

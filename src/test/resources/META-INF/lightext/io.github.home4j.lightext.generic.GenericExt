@@ -1,0 +1,2 @@
+integer=io.github.home4j.lightext.generic.IntegerExt
+long=io.github.home4j.lightext.generic.LongExt
